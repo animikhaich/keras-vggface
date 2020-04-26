@@ -6,7 +6,7 @@ cache:
 matrix:
   include:
     - python: 3.6
-      env: KERAS_BACKEND=tensorflow MODE=TF2
+      env: KERAS_BACKEND=tensorflow MODE=TF1
 install:
   # code below is taken from http://conda.pydata.org/docs/travis.html
   # We do this conditionally because it saves us some downloading if the
